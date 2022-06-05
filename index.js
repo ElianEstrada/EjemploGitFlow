@@ -18,8 +18,18 @@ app.get('/', (req, res) => {
 });
 
 
+<<<<<<< HEAD
 app.get('/adios', (req, res) => {
 
 	res.send("Adios");
 
 });
+=======
+//asdkfjañslkdjfñalksdjf
+
+app.get('/hola', (req, res) => {
+
+    res.send("Hola");
+
+});
+>>>>>>> 8401584 (Agregando ruta de Hola)
