@@ -16,3 +16,9 @@ app.get('/', (req, res) => {
     res.json({"nombre": "Elian", "Edad": 21});
 
 });
+
+app.get('/hola', (req, res) => {
+
+    res.json({"msg": "hola mundo"});
+
+});
