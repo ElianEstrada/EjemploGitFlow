@@ -22,3 +22,9 @@ app.get('/hola', (req, res) => {
     res.json({"msg": "hola mundo"});
 
 });
+
+app.get('/adios', (req, res) => {
+
+	res.send("Adios");
+
+});
