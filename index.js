@@ -16,3 +16,10 @@ app.get('/', (req, res) => {
     res.json({"nombre": "Elian", "Edad": 21});
 
 });
+
+
+app.get('/adios', (req, res) => {
+
+	res.send("Adios");
+
+});
